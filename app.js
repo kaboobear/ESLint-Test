@@ -10,7 +10,7 @@ app.use(cors());
 const PORT = process.env.PORT || '5000';
 
 app.use('/', (req, res) => {
-        res.send('ok');
+    res.send('ok');
 });
 
 app.listen(PORT, () => {
